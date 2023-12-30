@@ -6,16 +6,25 @@ To write a program to perform linear search and binary search using python progr
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Linear Search:
-(i).  Start from the leftmost element of array[] and compare k with each element of array[] one by one.
-(ii).  If k matches with an element in array[] , return the index.
-(iii).  If k doesn’t match with any of elements in array[], return -1 or element not found.
+### (i).  
+Start from the leftmost element of array[] and compare k with each element of array[] one by one.
+### (ii).
+If k matches with an element in array[] , return the index.
+### (iii).  
+If k doesn’t match with any of elements in array[], return -1 or element not found.
 ### Binary Search:
-(i).  Set two pointers low and high at the lowest and the highest positions respectively.
-(ii).  Find the middle element mid of the array ie. arr[(low + high)/2]
-(iii).  If x == mid, then return mid.Else, compare the element to be searched with m.
-(iv).  If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
-(v).  Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
-(vi).  Repeat steps 2 to 5 until low meets high
+### (i).  
+Set two pointers low and high at the lowest and the highest positions respectively.
+### (ii). 
+Find the middle element mid of the array ie. arr[(low + high)/2]
+### (iii).
+If x == mid, then return mid.Else, compare the element to be searched with m.
+### (iv).
+If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
+### (v).
+Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
+### (vi).
+Repeat steps 2 to 5 until low meets high
 ## Linear Search:
 1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
 2.	If k matches with an element in array[] , return the index.
